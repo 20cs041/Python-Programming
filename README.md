@@ -43,3 +43,43 @@ Practical 5:
 
 Aim:
 You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa. Sample Input: HackerRank.com presents "Pythonist 2". Sample Output: hACKERrANK.COM PRESENTS "pYTHONIST 2".
+
+Practical 6:
+
+Aim:
+You  are  given nwords.  Some  words  may  repeat.  For  each  word,  output  its number of occurrences. The output order should correspond with the input order of appearance of the word. See the sample input/output for clarification.                                   
+Note:Each input line ends with a "\n" character.                             
+Constraints:1≤𝑛≤10^5.                                                                       
+The sum of the lengths of all the words do not exceed 10^6.                                 
+All the words are composed of lowercase English letters only.                             
+Input Format:The first line contains the integer n.The next nlines each contain a word.   
+Output Format:Output 2 lines.On the first line, output the number of distinct words from the input.On  the  second  line,  output  the  number  of  occurrences  for  each  distinct word according to their appearance in the input.Sample Input4bcdefabcdefgbcdebcdef            
+Sample Output 3  2 1 1                                                                         
+Explanation: There are 3distinct words. Here, "bcdef" appears twice in the input at the first and last positions. The other words appear once each. The order of the first  appearances  are  "bcdef",  "abcdefg"  and  "bcde"  which  corresponds  to  the output.
+
+Practical 7:
+
+Aim:
+Lapindromeis  defined  as  a  string  which  when  split  in  the  middle,  gives  two halves having the same characters and same frequency of each character. If there are odd number of characters in the string, we ignore the middle  character and check for lapindrome. For example gagais a lapindrome, since the two halves gaand gahave the same characters with same frequency. Also, abccab, rotorand xyzxyare a few examples of lapindromes. Note that abbaab is NOT a lapindrome. The two halves contain the same characters but their frequencies do not match.Your task is simple. Given a string, you need to tell if it is a lapindrome.             
+Input:First line of input contains a single integer T, the number of test cases.Each test is a single line containing a string S composed of only lowercase English alphabet.                
+Output:For  each  test  case,  output  on  a  separate  line:  "YES"  if  the  string  is  a lapindrome and "NO" if it is not.
+Constraints:1 ≤ T ≤ 1002 ≤ |S| ≤ 1000, where |S| denotes the length of S
+Example:
+Input:6
+gaga abcde rotor xyzxy abbaab ababc
+Output:YES NO YES YES NO NO
+
+Practical 8:
+
+Aim:
+Write a Program in Python to implement a Stack Data Structure using Class and Objects, with push, pop, and traversal method.
+
+Practical 9:
+
+Aim:
+Consider an example of declaring the examination result. Design three classes: Student,  Exam,  and  Result.  The  Student  class  has  data  members  such  as  those representing rollNumber, Name, etc. Create the class Exam by inheriting Student class. The Exam class adds fields representing the marks scored in six subjects. Derive Result from the Exam class, and it has its own fields such as total_marks. Write an interactive program to model this relationship.
+
+Practical 10:
+
+Aim:
+Generate PDF file of your 3rd Semester Mark-sheet.
